@@ -1,0 +1,79 @@
+body {
+  background-color: #1D2326;
+  color: #BFA38A;
+  font-family: monospace;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+p {
+  color: #8097A6;
+}
+
+.meme-art {
+  width: 65%;
+  padding-left: 30px;
+  padding-right: 20px;
+  position: relative;
+  text-align: center;
+}
+
+.meme-art p {
+  font-size: 3em;
+  max-width: 80%;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.meme-art img {
+  border: 1px solid white;
+  border-radius: 5px;
+  max-height: 700px;
+  max-width: 1200px;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-left: 1px dotted #BFA38A;
+  height: 85vh;
+}
+
+button {
+  width: 200px;
+  max-width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 35px;
+  border: 1px solid #BFA38A;
+  background: transparent;
+  color: #BFA38A;
+  border-radius: 5px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: rgba(255,255,255,0.1)
+}
+
+input:checked {
+  vertical-align: middle;
+  accent-color: #c32f27;
+}
+
+.slider {
+  accent-color: #c32f27;
+}
